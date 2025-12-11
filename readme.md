@@ -1,4 +1,4 @@
-## This project demonstrate use of following docker concepts to host a python application using mysql database.
+## Run a Python application using mysql database using docker compose.
 
 
 **Docker concepts used :**
@@ -7,14 +7,14 @@
 * Use of environment variables into my Docker compose file
 
 
-**How to run this project ?**
-`cd pythonapp`
+**How to run this project ?** \
+`cd /pythonapp`
 `docker-compose up -d`
 
-**Check if flask-app container is able to connect to mysql-container**
+**Check if flask-app container is able to connect to mysql-container** \
 `docker exec -it flaskapp mysql -h mysql-container -u admin -p`
 
-**Cleanup the container from compose file** 
+**Cleanup the container from compose file** \
 `docker compose down`  _#!Removes docker containers, networks from compose file_
 
 ![dockercomposedownall](./dc.png)
