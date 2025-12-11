@@ -17,8 +17,8 @@
 **Cleanup the container from compose file** 
 `docker compose down`  _#!Removes docker containers, networks from compose file_
 
-![dockercomposedownall](./dc-down-all.png)
+![dockercomposedownall](./dc.png)
 
 `docker compose down --rmi all -v`  _#!Removes docker images, networks, volumes from compose file_
 
-![dockercomposedownall](./dc.png)
+![dockercomposedownall](./dc-down-all.png)
