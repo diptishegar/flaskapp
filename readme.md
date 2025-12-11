@@ -4,11 +4,11 @@
 **Docker concepts used :**
 * Docker Volumes
 * Docker Network
-* Use of environment variables into my Docker compose file
+* Environment Variables
 
 
 **How to run this project ?** \
-`cd /pythonapp`
+`cd /pythonapp` \
 `docker-compose up -d`
 
 **Check if flask-app container is able to connect to mysql-container** \
